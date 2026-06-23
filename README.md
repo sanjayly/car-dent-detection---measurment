@@ -6,6 +6,10 @@ This project focuses on detecting **car dents** using a YOLO model and estimatin
 
 ---
 
+sample_img_test.py file will test the image by detect and measures the real world  using coc dataset pretrained model
+webcan.py file will test using webcam by detect and measures the real world  using coc dataset pretrained model
+custom_dent_test file uses is best.pt which is trained on some images and it is tested for dent detection and measures the real world values
+
 # 🧰 1. Requirements & Installation
 
 ## 🔹 Install Dependencies
@@ -23,16 +27,7 @@ Install required packages:
 pip install -r requirements.txt
 ```
 
-## 🔹 Sample `requirements.txt`
 
-```txt
-ultralytics
-opencv-python
-numpy
-matplotlib
-```
-
----
 
 # 🏷️ 2. Data Annotation using LabelImg
 
